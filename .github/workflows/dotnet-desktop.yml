@@ -1,54 +1,67 @@
-name: .NET Core Console App
+name: C# Star List Generator
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *'  # 每天12点运行
   push:
     branches:
       - main
 
 jobs:
-  build-and-run:
+  generate-star-list:
     runs-on: windows-latest
     
     steps:
-    - name: Checkout
+    - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Setup .NET
+    - name: Setup .NET 8
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
 
-    - name: Build and run
+    - name: Restore dependencies
+      run: dotnet restore ListMyStarts/ListMyStarts.csproj
+
+    - name: Build project
+      run: dotnet build ListMyStarts/ListMyStarts.csproj --configuration Release --no-restore
+
+    - name: Run application
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        # 构建项目
-        dotnet build ListMyStarts/ListMyStarts.csproj --configuration Release
-        
-        # 运行程序
+        echo "Running the application..."
         cd ListMyStarts
         dotnet run --configuration Release --no-build
         
-        # 检查文件是否生成
-        if (Test-Path "../My Starts.md") {
-          echo "File generated successfully"
+        # 检查生成的文件
+        echo "Checking generated file..."
+        if (Test-Path "..\My Starts.md") {
+          echo "✅ File generated successfully"
+          type "..\My Starts.md" | head -5
         } else {
-          echo "File not found"
-          # 查看当前目录结构
-          dir ../
+          echo "❌ File not found"
+          dir ..
+          exit 1
         }
-      
-    - name: Commit and push
+
+    - name: Commit and push changes
       run: |
-        git config --local user.email "xiangshouxuan@foxmail.com"
-        git config --local user.name "xiangsxuan"
-        git pull origin main
+        echo "Setting up git..."
+        git config --global user.email "xiangshouxuan@foxmail.com"
+        git config --global user.name "xiangsxuan"
         
-        # 检查是否有文件需要提交
-        if git status --porcelain | grep -q "M"; then
-          git add .
-          git commit -m ":sparkles: Add generated repo.md file"
-          git push origin main
-          echo "Changes pushed successfully"
-        else
+        echo "Checking for changes..."
+        git add .
+        
+        if git diff --cached --quiet; then
           echo "No changes to commit"
+        else
+          echo "Committing changes..."
+          git commit -m ":sparkles: Update star list - $(date '+%Y-%m-%d %H:%M:%S')"
+          
+          echo "Pushing to main..."
+          git push origin main
+          echo "✅ Changes pushed successfully"
         fi
