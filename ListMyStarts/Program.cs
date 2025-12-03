@@ -26,11 +26,12 @@ foreach (var item in starred)
     mdStr.Append("]\n");
     idx++;
 }
-
+Console.WriteLine("文件内容:"+mdStr?.ToString() ?? "");
 // 写入到源码目录的md文件
 var path = GetFilePath();// 获取当前源码文件路径
 var dir = Path.GetDirectoryName(Path.GetDirectoryName(path));
 var mdfile = Path.Combine(dir, "My Starts.md");//跳转两层目录找到源代码里的md文件,这方法可能不通用
+Console.WriteLine("文件位置:" + mdfile);
 File.WriteAllText(mdfile, mdStr?.ToString() ?? ""
                 , new UTF8Encoding(false)); // UTF8默认包含Bom, 会在开头多个/FEFF标志,
                                             // 影响md解析, 构造传false取消这个标志
