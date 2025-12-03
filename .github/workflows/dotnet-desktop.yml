@@ -15,6 +15,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: Setup .NET 8
       uses: actions/setup-dotnet@v4
@@ -28,40 +30,39 @@ jobs:
       run: dotnet build ListMyStarts/ListMyStarts.csproj --configuration Release --no-restore
 
     - name: Run application
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        echo "Running the application..."
         cd ListMyStarts
         dotnet run --configuration Release --no-build
-        
-        # 检查生成的文件
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Debug - Check generated file
+      shell: bash
+      run: |
         echo "Checking generated file..."
-        if (Test-Path "..\My Starts.md") {
-          echo "✅ File generated successfully"
-          type "..\My Starts.md" | head -5
-        } else {
+        if [ -f "My Starts.md" ]; then
+          echo "✅ File exists"
+          echo "First 5 lines:"
+          head -5 "My Starts.md"
+        else
           echo "❌ File not found"
-          dir ..
+          ls -la
           exit 1
-        }
+        fi
 
     - name: Commit and push changes
+      shell: bash  # 使用 bash shell
       run: |
-        echo "Setting up git..."
-        git config --global user.email "xiangshouxuan@foxmail.com"
-        git config --global user.name "xiangsxuan"
+        git config --local user.email "xiangshouxuan@foxmail.com"
+        git config --local user.name "xiangsxuan"
+        git pull origin main
         
-        echo "Checking for changes..."
+        # 检查是否有更改
         git add .
-        
         if git diff --cached --quiet; then
           echo "No changes to commit"
         else
-          echo "Committing changes..."
           git commit -m ":sparkles: Update star list - $(date '+%Y-%m-%d %H:%M:%S')"
-          
-          echo "Pushing to main..."
           git push origin main
           echo "✅ Changes pushed successfully"
         fi
