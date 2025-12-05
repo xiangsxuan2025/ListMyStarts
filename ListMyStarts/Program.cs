@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 
 // 传送了名字,否则默认
-var username = "xiangsxuan2025";
+var username = "xiangsxuan2";
 if (args is not null && args.Length != 0)
 {
     username = args[0];
