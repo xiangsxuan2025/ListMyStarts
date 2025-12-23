@@ -3,7 +3,7 @@ name: GitHub Star List Generator (Linux)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *' # 每3小时运行
+    - cron: '0 */4 * * *' # 每4小时运行
   push:
     branches: [master]
 
