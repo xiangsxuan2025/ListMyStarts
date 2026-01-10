@@ -354,7 +354,7 @@
 352. [Unigram](https://github.com/UnigramDev/Unigram)	[Telegram for WindowsTelegram for Windows]
 353. [Avalonia.IconPacks](https://github.com/ahopper/Avalonia.IconPacks)	[Import of Visual Studio image library and MahApps.Metro.IconPacks for AvaloniaImport of Visual Studio image library and MahApps.Metro.IconPacks for Avalonia]
 354. [Notification.Avalonia](https://github.com/AvaloniaCommunity/Notification.Avalonia)	[No description available.]
-355. [LiquidGlassAvaloniaUI](https://github.com/KaranocaVe/LiquidGlassAvaloniaUI)	[An AvaloniaUI implementation of Apple's liquid glass morphing effect.An AvaloniaUI implementation of Apple's liquid glass morphing effect.]
+355. [LiquidGlassAvaloniaUI](https://github.com/KaranocaVe/LiquidGlassAvaloniaUI)	[An AvaloniaUI “liquid glass” backdrop effectAn AvaloniaUI “liquid glass” backdrop effect]
 356. [egram.tel](https://github.com/egramtel/egram.tel)	[Crossplatform Telegram clientCrossplatform Telegram client]
 357. [AvaloniaILSpy](https://github.com/icsharpcode/AvaloniaILSpy)	[Avalonia-based .NET Decompiler (port of ILSpy)Avalonia-based .NET Decompiler (port of ILSpy)]
 358. [repomix](https://github.com/yamadashy/repomix)	[📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.]
