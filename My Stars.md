@@ -6,7 +6,7 @@
 4. [echotrace](https://github.com/ycccccccy/echotrace)	[EchoTrace 是一个本地、安全的微信聊天记录导出、分析与年度报告生成工具 | EchoTrace is a local, secure tool for exporting, analyzing, and generating annual reports of WeChat chat recordsEchoTrace 是一个本地、安全的微信聊天记录导出、分析与年度报告生成工具 | EchoTrace is a local, secure tool for exporting, analyzing, and generating annual reports of WeChat chat records]
 5. [discourse](https://github.com/discourse/discourse)	[A platform for community discussion. Free, open, simple.A platform for community discussion. Free, open, simple.]
 6. [ControlzEx](https://github.com/ControlzEx/ControlzEx)	[Shared Controlz for WPF and ... moreShared Controlz for WPF and ... more]
-7. [MewUI](https://github.com/aprillz/MewUI)	[A lightweight code-first .NET UI toolkit focused on fluent C# markup and NativeAOT-friendlyA lightweight code-first .NET UI toolkit focused on fluent C# markup and NativeAOT-friendly]
+7. [MewUI](https://github.com/aprillz/MewUI)	[A cross-platform and lightweight, code-first .NET GUI library aimed at NativeAOT.A cross-platform and lightweight, code-first .NET GUI library aimed at NativeAOT.]
 8. [tokei](https://github.com/XAMPPRocky/tokei)	[Count your code, quickly.Count your code, quickly.]
 9. [mastodon](https://github.com/mastodon/mastodon)	[Your self-hosted, globally interconnected microblogging communityYour self-hosted, globally interconnected microblogging community]
 10. [Valine](https://github.com/xCss/Valine)	[A fast, simple & powerful comment system.A fast, simple & powerful comment system.]
