@@ -235,7 +235,7 @@
 233. [ImageSharp](https://github.com/SixLabors/ImageSharp)	[:camera: A modern, cross-platform, 2D Graphics library for .NET:camera: A modern, cross-platform, 2D Graphics library for .NET]
 234. [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core)	[:honeybee: A collection of awesome .NET core libraries, tools, frameworks and software:honeybee: A collection of awesome .NET core libraries, tools, frameworks and software]
 235. [ChoETL](https://github.com/Cinchoo/ChoETL)	[ETL framework for .NET (Parser / Writer for CSV, Flat, Xml, JSON, Key-Value, Parquet, Yaml, Avro formatted files)ETL framework for .NET (Parser / Writer for CSV, Flat, Xml, JSON, Key-Value, Parquet, Yaml, Avro formatted files)]
-236. [VpnHood](https://github.com/vpnhood/VpnHood)	[Undetectable Fast Portable VPNUndetectable Fast Portable VPN]
+236. [VpnHood](https://github.com/vpnhood/VpnHood)	[Undetectable, Fast,  Cross-Platform, Free VPNUndetectable, Fast,  Cross-Platform, Free VPN]
 237. [PicView](https://github.com/Ruben2776/PicView)	[Fast, free and customizable picture viewerFast, free and customizable picture viewer]
 238. [activitywatch](https://github.com/ActivityWatch/activitywatch)	[The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.]
 239. [open-source-jobs](https://github.com/timqian/open-source-jobs)	[A list of Open Source projects offering jobs.A list of Open Source projects offering jobs.]
