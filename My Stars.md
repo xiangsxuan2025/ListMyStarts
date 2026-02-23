@@ -366,7 +366,7 @@
 364. [Pororoca](https://github.com/alexandrehtrb/Pororoca)	[An API testing tool with support for HTTP/2 and HTTP/3. Alternative to Postman.An API testing tool with support for HTTP/2 and HTTP/3. Alternative to Postman.]
 365. [awesome-avalonia](https://github.com/AvaloniaCommunity/awesome-avalonia)	[A collection of interesting libraries and tools for Avalonia project.A collection of interesting libraries and tools for Avalonia project.]
 366. [Files](https://github.com/files-community/Files)	[A modern file manager that helps users organize their files and folders.A modern file manager that helps users organize their files and folders.]
-367. [awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration)	[Integrate the DeepSeek API into popular softwaresIntegrate the DeepSeek API into popular softwares]
+367. [awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration)	[Integrate the DeepSeek API into popular softwareIntegrate the DeepSeek API into popular software]
 368. [ChatGLM3](https://github.com/zai-org/ChatGLM3)	[ChatGLM3 series: Open Bilingual Chat LLMs | 开源双语对话语言模型ChatGLM3 series: Open Bilingual Chat LLMs | 开源双语对话语言模型]
 369. [zio](https://github.com/xoofx/zio)	[A cross-platform abstract/virtual filesystem framework with many built-ins filesystems for .NETA cross-platform abstract/virtual filesystem framework with many built-ins filesystems for .NET]
 370. [ultra](https://github.com/xoofx/ultra)	[An advanced profiler for .NET Applications on WindowsAn advanced profiler for .NET Applications on Windows]
