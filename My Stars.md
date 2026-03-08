@@ -229,7 +229,7 @@
 227. [choco](https://github.com/chocolatey/choco)	[Chocolatey - the package manager for WindowsChocolatey - the package manager for Windows]
 228. [gharchive.org](https://github.com/igrigorik/gharchive.org)	[GH Archive is a project to record the public GitHub timeline, archive it, and make it easily accessible for further analysis.GH Archive is a project to record the public GitHub timeline, archive it, and make it easily accessible for further analysis.]
 229. [de4dot](https://github.com/de4dot/de4dot)	[.NET deobfuscator and unpacker..NET deobfuscator and unpacker.]
-230. [NETworkManager](https://github.com/BornToBeRoot/NETworkManager)	[A powerful tool for managing networks and troubleshoot network problems!A powerful tool for managing networks and troubleshoot network problems!]
+230. [NETworkManager](https://github.com/BornToBeRoot/NETworkManager)	[A powerful open-source tool for managing networks and troubleshooting network problems!A powerful open-source tool for managing networks and troubleshooting network problems!]
 231. [serilog](https://github.com/serilog/serilog)	[Simple .NET logging with fully-structured eventsSimple .NET logging with fully-structured events]
 232. [blockchain](https://github.com/dvf/blockchain)	[A simple Blockchain in PythonA simple Blockchain in Python]
 233. [ImageSharp](https://github.com/SixLabors/ImageSharp)	[:camera: A modern, cross-platform, 2D Graphics library for .NET:camera: A modern, cross-platform, 2D Graphics library for .NET]
