@@ -1,6 +1,6 @@
 
 # /home/runner/work/ListMyStarts/ListMyStarts/My Stars.md
-1. [awesome-design-md](https://github.com/VoltAgent/awesome-design-md)	[Collection of DESIGN.md files that capture design systems from popular websites. Drop one into your project and let coding agents build matching UI.Collection of DESIGN.md files that capture design systems from popular websites. Drop one into your project and let coding agents build matching UI.]
+1. [awesome-design-md](https://github.com/VoltAgent/awesome-design-md)	[A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.]
 2. [LLPlayer](https://github.com/umlx5h/LLPlayer)	[The media player for language learning, with dual subtitles, AI-generated subtitles, real-time translation, and more!The media player for language learning, with dual subtitles, AI-generated subtitles, real-time translation, and more!]
 3. [cc-src-learning](https://github.com/mylxsw/cc-src-learning)	[透过 Claude Code 的源码，我们学到了什么？透过 Claude Code 的源码，我们学到了什么？]
 4. [openclaw.net](https://github.com/clawdotnet/openclaw.net)	[Self-hosted OpenClaw gateway + agent runtime in .NET (NativeAOT-friendly)Self-hosted OpenClaw gateway + agent runtime in .NET (NativeAOT-friendly)]
