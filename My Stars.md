@@ -146,7 +146,7 @@
 144. [KibaFramework](https://github.com/kiba518/KibaFramework)	[WPF的MVVM框架，框架介绍文章WPF的MVVM框架，框架介绍文章]
 145. [e2m](https://github.com/wisupai/e2m)	[E2M converts various file types (doc, docx, epub, html, htm, url, pdf, ppt, pptx, mp3, m4a) into Markdown. It’s easy to install, with dedicated parsers and converters, supporting custom configs. E2M offers an all-in-one, flexible, and open-source solution.E2M converts various file types (doc, docx, epub, html, htm, url, pdf, ppt, pptx, mp3, m4a) into Markdown. It’s easy to install, with dedicated parsers and converters, supporting custom configs. E2M offers an all-in-one, flexible, and open-source solution.]
 146. [percollate](https://github.com/danburzo/percollate)	[A command-line tool to turn web pages into readable PDF, EPUB, HTML, or Markdown docs.A command-line tool to turn web pages into readable PDF, EPUB, HTML, or Markdown docs.]
-147. [firecrawl](https://github.com/firecrawl/firecrawl)	[🔥 The Web Data API for AI - Power AI agents with clean web data🔥 The Web Data API for AI - Power AI agents with clean web data]
+147. [firecrawl](https://github.com/firecrawl/firecrawl)	[🔥 The API to search, scrape, and interact with the web for AI🔥 The API to search, scrape, and interact with the web for AI]
 148. [Design-Pattern](https://github.com/sheng-jie/Design-Pattern)	[设计模式 C# 版（ .NET 6），有系列文章讲解设计模式 C# 版（ .NET 6），有系列文章讲解]
 149. [what-happens-when-zh_CN](https://github.com/skyline75489/what-happens-when-zh_CN)	[What-happens-when 的中文翻译，原仓库 https://github.com/alex/what-happens-whenWhat-happens-when 的中文翻译，原仓库 https://github.com/alex/what-happens-when]
 150. [min](https://github.com/minbrowser/min)	[A fast, minimal browser that protects your privacyA fast, minimal browser that protects your privacy]
